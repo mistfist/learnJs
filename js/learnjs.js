@@ -71,9 +71,9 @@
 // console.log(2 * 4 == '9');
 
 
-const isChecked = true,
-    isClose = true;
+// const isChecked = true,
+//     isClose = true;
 
 // console.log(isCheked && isClose);
 // console.log(isChecked || isClose);
-console.log(isChecked || !isClose);
+// console.log(isChecked || !isClose);
