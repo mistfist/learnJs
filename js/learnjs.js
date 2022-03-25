@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 // Переменные и строгий режим
 // let number = 5;
@@ -77,3 +77,79 @@
 // console.log(isCheked && isClose);
 // console.log(isChecked || isClose);
 // console.log(isChecked || !isClose);
+
+// Циклы
+// let num = 50;
+
+// while (num <= 50) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+
+// while (num < 55);
+
+// for (let i = 1; i < 10; i++) {
+//     if (i === 6) {
+//         // break;
+//         continue;
+//     }
+//     console.log(i);
+
+// }
+
+
+// Функции, стрелочные функции
+
+// function showFirstMessage() {
+//     console.log("Hello World!");
+// }
+
+// showFirstMessage();
+
+// function ret() {
+//     let num = 50;
+
+//     return num;
+// }
+
+// Функции декларейшн  - Создается до начала выполнения скрипта, можн вызвать перед объявлением
+// const anotherNum = ret();
+// console.log(anotherNum);
+
+// Функции экспрешн - создается только тогда, когда доходит поток кода, можно вызвать только после объявления
+// const logger = function() {
+//     console.log("Hello");
+// };
+
+// logger();
+
+// Стрелочные
+// const calc = (a, b) => { return a + b };
+
+// Методы и свойства строк и чисел
+// const str = "test";
+// const arr = [1, 2, 4];
+
+// console.log(str.length);
+// console.log(str.toLowerCase());
+// console.log(str.toUpperCase());
+
+// const fruit = "Some fruit";
+// console.log(fruit.indexOf("fruit"));
+
+// const logg = "Hello world";
+// console.log(logg.slice(6, 10));
+
+// console.log(logg.substr(6, 5));
+
+// const num = 12.2;
+// console.log(Math.round(num));
+
+// const test = "12.2px";
+// console.log(parseInt(test));
+// console.log(parseFloat(test));
